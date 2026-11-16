@@ -1,4 +1,4 @@
-// faces.h - PixelPal pixel-art faces, 16x16 1-bit bitmaps.
+// faces.h - Smart Keychain pixel-art faces, 16x16 1-bit bitmaps.
 // Each face is 32 bytes (16 rows of 16 bits, MSB = leftmost pixel).
 // Draw your own: bit set = pixel on.
 
