@@ -1,4 +1,4 @@
-// pins.h - PixelPal pin map
+// pins.h - Smart Keychain pin map
 //
 // LEFT BLANK ON PURPOSE.
 // Pin values get filled in once the EE side finishes the PCB layout in
