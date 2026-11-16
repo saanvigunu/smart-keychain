@@ -1,4 +1,4 @@
-// pixelpal.ino - PixelPal firmware entry point (ESP32-C3, Arduino core).
+// smart_keychain.ino - Smart Keychain firmware entry point (ESP32-C3, Arduino core).
 //
 // Loop: animate the face on the OLED, glow the edge strip, poll buttons.
 // A short press on INTERACT pings the phone over BLE for an AI message;
@@ -17,7 +17,7 @@ static uint32_t last_blink = 0;
 void setup() {
     display_begin();
     leds_begin();
-    ble_begin("PixelPal");
+    ble_begin("Smart Keychain");
     display_face(FACE_HAPPY);
     leds_idle_glow();
 }
